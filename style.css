@@ -2,4 +2,35 @@ body {
     height: 100vh;
     margin: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+}
+
+.input {
+    display: flex;
+}
+
+.button {
+    display: flex;
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+}
+
+.col {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+textarea {
+    width: 100px;
+    height: 100px;
 }
