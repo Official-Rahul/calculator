@@ -3,38 +3,39 @@
         <meta charset="UTF-8">
         <title>Calculator</title>
         <link href="style.css" rel="stylesheet">
+        <script type="text/javascript" src="action.js"></script>
     </head>
     <body>
         <div class="calculator">
             <div class="input">
                 <div class="row">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="inputArea" cols="30" rows="10"></textarea>
                 </div>
             </div>
             <div class="button">
                 <div class="row">
-                    <div class="col">1</div>
-                    <div class="col">4</div>
-                    <div class="col">7</div>
-                    <div class="col">.</div>
+                    <div class="col" onclick="input('1')">1</div>
+                    <div class="col" onclick="input('4')">4</div>
+                    <div class="col" onclick="input('7')">7</div>
+                    <div class="col" onclick="input('.')">.</div>
                 </div>
                 <div class="row">
-                    <div class="col">2</div>
-                    <div class="col">5</div>
-                    <div class="col">8</div>
-                    <div class="col">0</div>
+                    <div class="col" onclick="input('2')">2</div>
+                    <div class="col" onclick="input('5')">5</div>
+                    <div class="col" onclick="input('8')">8</div>
+                    <div class="col" onclick="input('0')">0</div>
                 </div>
                 <div class="row">
-                    <div class="col">3</div>
-                    <div class="col">6</div>
-                    <div class="col">9</div>
-                    <div class="col">=</div>
+                    <div class="col" onclick="input('3')">3</div>
+                    <div class="col" onclick="input('6')">6</div>
+                    <div class="col" onclick="input('9')">9</div>
+                    <div class="col" onclick="calculate()">=</div>
                 </div>
                 <div class="row">
-                    <div class="col">+</div>
-                    <div class="col">-</div>
-                    <div class="col">*</div>
-                    <div class="col">/</div>
+                    <div class="col" onclick="input('+')">+</div>
+                    <div class="col" onclick="input('-')">-</div>
+                    <div class="col" onclick="input('*')">*</div>
+                    <div class="col" onclick="input('/')">/</div>
                 </div>
             </div>
         </div>
