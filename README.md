@@ -2,6 +2,7 @@
 
 Calculator is an HTML, CSS & Javascript application.
 Below are the simple steps for using it on local machine.
+[mathjs](https://mathjs.org/) is used for mathematical calculation.
 
 ## `Home page`
 
